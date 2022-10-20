@@ -33,7 +33,7 @@ pipeline {
                 pwd
                 cd ITSjavaPersonne
                 java -jar target/itsjavapersonne-0.2.jar
-                echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
+                echo "Running"
                 '''
             }
         }
