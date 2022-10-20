@@ -6,7 +6,7 @@ pipeline {
                 sh '''
                 pwd
                 rm -rf ITSjavaPersonne
-                git clone $(GIT_URL)
+                git clone $(env.GIT_URL)
                 echo "Repository cloned" 
                 '''
             }
